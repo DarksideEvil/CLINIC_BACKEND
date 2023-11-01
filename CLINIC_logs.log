@@ -1,0 +1,173 @@
+{"level":"error"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"_message":"service validation failed","errors":{"title":{"kind":"minlength","message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidatorError","path":"title","properties":{"message":"Path `title` (`ds`) is shorter than the minimum allowed length (3).","minlength":3,"path":"title","type":"minlength","value":"ds"},"value":"ds"}},"level":"error","message":"service validation failed: title: Path `title` (`ds`) is shorter than the minimum allowed length (3).","name":"ValidationError"}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/title","keyword":"minLength","message":"must NOT have fewer than 3 characters","params":{"limit":3},"schemaPath":"#/properties/title/minLength"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/desc","keyword":"minLength","message":"must NOT have fewer than 2 characters","params":{"limit":2},"schemaPath":"#/properties/desc/minLength"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"","keyword":"additionalProperties","message":"must NOT have additional properties","params":{"additionalProperty":"color"},"schemaPath":"#/additionalProperties"}]}
+{"level":"error","message":[{"instancePath":"","keyword":"additionalProperties","message":"must NOT have additional properties","params":{"additionalProperty":"color"},"schemaPath":"#/additionalProperties"}]}
+{"level":"error","message":[{"instancePath":"","keyword":"additionalProperties","message":"must NOT have additional properties","params":{"additionalProperty":"color"},"schemaPath":"#/additionalProperties"}]}
+{"level":"error","message":[{"instancePath":"","keyword":"additionalProperties","message":"must NOT have additional properties","params":{"additionalProperty":"color"},"schemaPath":"#/additionalProperties"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"","keyword":"required","message":"must have required property 'title'","params":{"missingProperty":"title"},"schemaPath":"#/required"}]}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error","message":[{"instancePath":"/price","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/price/type"}]}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":998912324252},"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"maxlength","message":"Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$6Xaea7Fu2HB7QpJSJBmumA$8rOpvqCpuVXhm5XR0bI76zVmqLJLwywQSq2qlHPg0o8`) is longer than the maximum allowed length (50).","name":"ValidatorError","path":"password","properties":{"maxlength":50,"message":"Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$6Xaea7Fu2HB7QpJSJBmumA$8rOpvqCpuVXhm5XR0bI76zVmqLJLwywQSq2qlHPg0o8`) is longer than the maximum allowed length (50).","path":"password","type":"maxlength","value":"$argon2id$v=19$m=65536,t=3,p=4$6Xaea7Fu2HB7QpJSJBmumA$8rOpvqCpuVXhm5XR0bI76zVmqLJLwywQSq2qlHPg0o8"},"value":"$argon2id$v=19$m=65536,t=3,p=4$6Xaea7Fu2HB7QpJSJBmumA$8rOpvqCpuVXhm5XR0bI76zVmqLJLwywQSq2qlHPg0o8"}},"level":"error","message":"patient validation failed: password: Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$6Xaea7Fu2HB7QpJSJBmumA$8rOpvqCpuVXhm5XR0bI76zVmqLJLwywQSq2qlHPg0o8`) is longer than the maximum allowed length (50).","name":"ValidationError"}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 12","params":{"comparison":"<=","limit":12},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"maximum","message":"must be <= 13","params":{"comparison":"<=","limit":13},"schemaPath":"#/properties/phone/maximum"}]}
+{"level":"error"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"password":{"kind":"string","message":"Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"CastError","path":"password","reason":null,"stringValue":"\"Promise { <pending> }\"","value":{},"valueType":"Promise"}},"level":"error","message":"patient validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","name":"ValidationError"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":998912333334},"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":12224325262},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":528392810472},"level":"error"}
+{"level":"error","message":[{"instancePath":"","keyword":"additionalProperties","message":"must NOT have additional properties","params":{"additionalProperty":"doctor"},"schemaPath":"#/additionalProperties"}]}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":[{"instancePath":"","keyword":"required","message":"must have required property 'role'","params":{"missingProperty":"role"},"schemaPath":"#/required"}]}
+{"level":"error"}
+{"level":"error","message":[{"instancePath":"","keyword":"additionalProperties","message":"must NOT have additional properties","params":{"additionalProperty":"phone"},"schemaPath":"#/additionalProperties"}]}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"_message":"owner validation failed","errors":{"role":{"kind":"enum","message":"`trw` is not a valid enum value for path `role`.","name":"ValidatorError","path":"role","properties":{"enumValues":["admin","boss"],"message":"`trw` is not a valid enum value for path `role`.","path":"role","type":"enum","value":"trw"},"value":"trw"}},"level":"error","message":"owner validation failed: role: `trw` is not a valid enum value for path `role`.","name":"ValidationError"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"level":"error","message":[{"instancePath":"/password","keyword":"minLength","message":"must NOT have fewer than 4 characters","params":{"limit":4},"schemaPath":"#/properties/password/minLength"}]}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
+{"level":"error","message":[{"instancePath":"/role","keyword":"maxLength","message":"must NOT have more than 10 characters","params":{"limit":10},"schemaPath":"#/properties/role/maxLength"}]}
