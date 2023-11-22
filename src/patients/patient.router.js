@@ -18,7 +18,8 @@ const {
 
 router.route('/').post(validating, addPatient);
 
-// router.use(authVerify);
+//get, put, delete are prohibited if user's token no exists !
+router.use(authVerify);
 
 router.route('/').get(getPatients);
 

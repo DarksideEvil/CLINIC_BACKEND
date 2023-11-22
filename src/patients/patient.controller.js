@@ -11,7 +11,7 @@ const addPatient = async (req, res) => {
         const existPatient = await patientModel.findOne({email: body.email});
         if (existPatient) {
             const validPswd = await argon2.verify(existPatient.password, body.password);
-            if (validPswd) return res.status(400).send('This patient\'s already exists !');
+            if (validPswd) return res.status(400).send({message: 'This patient\'s already exists !'});
         } else {
             const patient = new patientModel({
                 fullname: body.fullname, 
@@ -20,7 +20,8 @@ const addPatient = async (req, res) => {
                 age: body.age, 
                 email: body.email,
                 password: hashedPswd,
-                point: 1
+                point: 1,
+                balance: body.balance,
             });
             await patient.save();
             if (patient) {
@@ -28,37 +29,44 @@ const addPatient = async (req, res) => {
                     _id: patient._id,
                     fullname: patient.fullname,
                     email: patient.email,
-                    role: patient.role
+                    address: patient.address,
+                    phone: patient.phone,
+                    age: patient.age,
+                    spent: patient.spent,
+                    role: patient.role,
+                    balance: patient.balance
                 }
                 const token = await sign(payload, process.env.JWT_SECRET_KEY,
                     {expiresIn: process.env.PATIENT_TOKEN_EXPIRESIN});
+
                 return res.status(201).json({token: token});
             }
         }
     } catch (err) {
         logError(err);
-        return res.status(400).send({message: err?.message});
+        return res.status(500).send({message: err?.message});
     }
 }
 
 const getPatients = async (req, res) => {
     try {
         const patients = await patientModel.find({}).select('-password');
+
         return res.status(200).json(patients);
     } catch (err) {
-        return res.status(400).send(err);
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 
 const getPatient = async (req, res) => {
     try {
         const patient = await patientModel.findById(req.params.id).select('-password');
-        if (!patient) {
-            return res.status(400).send('That patient not exists !');
-        }
+
         return res.status(200).json(patient);
     } catch (err) {
-        return res.status(400).send({message: err?.message});
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 
@@ -66,22 +74,22 @@ const editPatient = async (req, res) => {
     try {
         const updatedPatient = await patientModel.findByIdAndUpdate(req.params.id, req.body)
         .select('-password');
+
         return res.status(200).json(updatedPatient);
     } catch (err) {
-        return res.status(400).send({message: err?.message});
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 
 const deletePatient = async (req, res) => {
     try {
         const deletedpatient = await patientModel.findByIdAndDelete(req.params.id);
-        if (!deletedpatient) {
-            return res.status(400).send('Couldn\'t delete this patient !');
-        }
+
         return res.status(200).json(deletedpatient);
     } catch (err) {
-        console.log(err);
-        return res.status(400).send({message: err?.message});
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 

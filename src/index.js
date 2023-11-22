@@ -6,16 +6,25 @@ const config = require('dotenv').config();
 const cors = require('cors');
 const {logError} = require('./settings/logs/log');
 const allRouter = require('./router');
+const onceEveryMonth = require('./reports/everyMonth');
+const cron = require('node-cron');
 
-//configuring..
+// configurs..
 config;
-//connecting to MongoDB..
+// connects to MongoDB..
 DB();
-
+// parses incoming JSON requests and puts the parsed data in req.body..
 app.use(express.json());
-cors();
+// enables Cross-Origin Resource Sharing (CORS)
+app.use(cors());
+// this function is performed on the 1st of every month
+cron.schedule('* * 1 * *', () => {
+    // saving monthly income
+    onceEveryMonth();
+}, {name: 'inserted monthly income !'});
+// path to all routes
 app.use('/api', allRouter);
-
+// handles errors..
 app.use((err, req, res, next) => {
     if (err) {
         logError(err);

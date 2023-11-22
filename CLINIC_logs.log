@@ -171,3 +171,78 @@
 {"level":"error","message":[{"instancePath":"/password","keyword":"minLength","message":"must NOT have fewer than 4 characters","params":{"limit":4},"schemaPath":"#/properties/password/minLength"}]}
 {"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":null},"level":"error"}
 {"level":"error","message":[{"instancePath":"/role","keyword":"maxLength","message":"must NOT have more than 10 characters","params":{"limit":10},"schemaPath":"#/properties/role/maxLength"}]}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"653f54cc7bd5cfacf5a863cf1\" (type string) at path \"_id\" for model \"service\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"653f54cc7bd5cfacf5a863cf1\"","value":"653f54cc7bd5cfacf5a863cf1","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"653f54cc7bd5cfac5f5a863cf\" (type string) at path \"_id\" for model \"service\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"653f54cc7bd5cfac5f5a863cf\"","value":"653f54cc7bd5cfac5f5a863cf","valueType":"string"}
+{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"653f54cc7bd5cfacf5a863cg\" (type string) at path \"_id\" for model \"service\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"653f54cc7bd5cfacf5a863cg\"","value":"653f54cc7bd5cfacf5a863cg","valueType":"string"}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"level":"error"}
+{"level":"error"}
+{"_message":"patient validation failed","errors":{"vouncher":{"kind":"string","message":"Cast to string failed for value \"[ 'NMdCtcowcn6GegE' ]\" (type Array) at path \"vouncher\"","name":"CastError","path":"vouncher","reason":null,"stringValue":"\"[ 'NMdCtcowcn6GegE' ]\"","value":["NMdCtcowcn6GegE"],"valueType":"Array"}},"level":"error","message":"patient validation failed: vouncher: Cast to string failed for value \"[ 'NMdCtcowcn6GegE' ]\" (type Array) at path \"vouncher\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"vouncher":{"kind":"string","message":"Cast to string failed for value \"Object [Array Iterator] {}\" (type Object) at path \"vouncher\"","name":"CastError","path":"vouncher","reason":null,"stringValue":"\"Object [Array Iterator] {}\"","value":{},"valueType":"Object"}},"level":"error","message":"patient validation failed: vouncher: Cast to string failed for value \"Object [Array Iterator] {}\" (type Object) at path \"vouncher\"","name":"ValidationError"}
+{"body":"{\n  \"senderAccountNumber\": \"65390aca5c87dd27f61cbf65\",\n    \"receiverAccountNumber\": \"653f54cc7bd5cfacf5a863cf\",\n    \"role\": \"service\",\n    \"amount\": 22,\n                                    \n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"error","message":[{"instancePath":"/password","keyword":"minLength","message":"must NOT have fewer than 4 characters","params":{"limit":4},"schemaPath":"#/properties/password/minLength"}]}
+{"code":11000,"index":0,"keyPattern":{"phone":1},"keyValue":{"phone":152565758595},"level":"error"}
+{"_message":"patient validation failed","errors":{"spent":{"kind":"Number","message":"Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"CastError","path":"spent","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"patient validation failed: spent: Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"spent":{"kind":"Number","message":"Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"CastError","path":"spent","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"patient validation failed: spent: Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"spent":{"kind":"Number","message":"Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"CastError","path":"spent","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"patient validation failed: spent: Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"ValidationError"}
+{"level":"error"}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":["string"]},"schemaPath":"#/properties/workDay/type"}]}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":["string"]},"schemaPath":"#/properties/workDay/type"}]}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":["string"]},"schemaPath":"#/properties/workDay/type"}]}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":["string"]},"schemaPath":"#/properties/workDay/type"}]}
+{"body":"{\n  \"workDay\": \"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":["string"]},"schemaPath":"#/properties/workDay/type"}]}
+{"level":"error"}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":"string"},"schemaPath":"#/properties/workDay/type"}]}
+{"level":"error"}
+{"level":"error","message":[{"instancePath":"/workDay","keyword":"type","message":"must be string","params":{"type":["string"]},"schemaPath":"#/properties/workDay/type"}]}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":40324,"codeName":"Location40324","level":"error","ok":0}
+{"level":"error"}
+{"code":2,"codeName":"BadValue","level":"error","ok":0}
+{"code":2,"codeName":"BadValue","level":"error","ok":0}
+{"code":2,"codeName":"BadValue","level":"error","ok":0}
+{"code":40234,"codeName":"Location40234","level":"error","ok":0}
+{"code":16410,"codeName":"Location16410","level":"error","ok":0}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"level":"error","message":[{"instancePath":"/phone","keyword":"type","message":"must be integer","params":{"type":"integer"},"schemaPath":"#/properties/phone/type"}]}
+{"_message":"patient validation failed","errors":{"spent":{"kind":"Number","message":"Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"CastError","path":"spent","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"patient validation failed: spent: Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"ValidationError"}
+{"_message":"patient validation failed","errors":{"spent":{"kind":"Number","message":"Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"CastError","path":"spent","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"patient validation failed: spent: Cast to Number failed for value \"NaN\" (type number) at path \"spent\"","name":"ValidationError"}

@@ -55,6 +55,14 @@ const patientSchema = new mongoose.Schema({
         default: 'patient',
         enum: ['patient']
     },
+    balance: {
+        type: Number,
+        default: 0
+    },
+    spent: {
+        type: Number,
+        default: 0
+    }
 }, {timestamps: true, versionKey: false});
 
 const patientModel = mongoose.model('patient', patientSchema);

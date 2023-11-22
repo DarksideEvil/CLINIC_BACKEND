@@ -22,6 +22,18 @@ const serviceSchema = new mongoose.Schema({
         default: null,
         unique: true
     },
+    workDay: {
+        type: [ String ],
+        default: []
+    },
+    role: {
+        type: String,
+        default: 'service'
+    },
+    income: {
+        type: Number,
+        default: 0
+    },
     price: {type: Number, required: true}
 }, {timestamps: true, versionKey: false});
 

@@ -9,7 +9,7 @@ const addOwner = async (req, res) => {
     const hashedPswd = await argon2.hash(password, salt);
     try {
         const existOwner = await ownerModel.findOne({email: req.body.email});
-        if (existOwner) return res.status(400).send('This owner\'s already exists in database !');
+        if (existOwner) return res.status(400).send({message: 'This owner\'s already exists in database !'});
 
         const owner = new ownerModel({
             fullname, email, password: hashedPswd, role
@@ -27,7 +27,7 @@ const addOwner = async (req, res) => {
         }
     } catch (err) {
         logError(err);
-        return res.status(400).send({message: err?.message});
+        return res.status(500).send({message: err?.message});
     }
 }
 
@@ -36,19 +36,19 @@ const getOwners = async (req, res) => {
         const owners = await ownerModel.find({}).select('-password');
         return res.status(200).json(owners);
     } catch (err) {
-        return res.status(400).send(err);
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 
 const getOwner = async (req, res) => {
     try {
         const owner = await ownerModel.findById(req.params.id).select('-password');
-        if (!owner) {
-            return res.status(400).send('That owner not exists !');
-        }
+
         return res.status(200).json(owner);
     } catch (err) {
-        return res.status(400).send({message: err?.message});
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 
@@ -56,19 +56,22 @@ const editOwner = async (req, res) => {
     try {
         const updatedOwner = await ownerModel.findByIdAndUpdate(req.params.id, req.body, {new: true})
         .select('-password');
+
         return res.status(200).json(updatedOwner);
     } catch (err) {
-        return res.status(400).send({message: err?.message});
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 
 const deleteOwner = async (req, res) => {
     try {
         const deletedOwner = await ownerModel.findByIdAndDelete(req.params.id);
+        
         return res.status(200).json(deletedOwner);
     } catch (err) {
-        console.log(err);
-        return res.status(400).send({message: err?.message});
+        logError(err);
+        return res.status(500).send({message: err?.message});
     }
 }
 

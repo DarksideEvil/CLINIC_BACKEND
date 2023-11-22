@@ -10,6 +10,9 @@ const schema = {
         title: {type: "string", minLength: 3, maxLength: 50},
         desc: {type: "string", minLength: 2, maxLength: 500},
         doctor: {type: "string"},
+        workDay: {type: "array"},
+        role: {type: "string"},
+        income: {type: "integer"},
         price: {type: "integer"}
     },
     required: ["title", "desc", "price"],
@@ -57,6 +60,9 @@ const editSchema = {
         title: {type: "string", minLength: 3, maxLength: 50},
         desc: {type: "string", minLength: 2, maxLength: 500},
         doctor: {type: "string"},
+        workDay: {type: "array"},
+        role: {type: "string"},
+        income: {type: "integer"},
         price: {type: "integer"}
     },
     additionalProperties: false

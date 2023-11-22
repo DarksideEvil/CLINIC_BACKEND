@@ -15,14 +15,16 @@ const {
     validatingg
 } = require('./job.validation');
 
-router.route('/').post(validating, addJob);
+const {adminCheck} = require('.././utils/permission');
 
 router.route('/').get(getJobs);
 
+router.route('/').post(validating, addJob);
+
 router.route('/:id').get(paramsValidate, getJob);
 
-router.route('/:id').put(paramsValidate, validatingg, editJob);
+router.route('/:id').put(adminCheck, paramsValidate, validatingg, editJob);
 
-router.route('/:id').delete(paramsValidate, deleteJob);
+router.route('/:id').delete(adminCheck, paramsValidate, deleteJob);
 
 module.exports = router;

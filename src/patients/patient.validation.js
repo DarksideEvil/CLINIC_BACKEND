@@ -14,6 +14,8 @@ const schema = {
         email: {type: "string", minLength: 4, maxLength: 30},
         password: {type: "string", minLength: 4, maxLength: 50},
         role: {type: "string", minLength: 2, maxLength: 10},
+        balance: {type: "integer"},
+        spent: {type: "integer"}
     },
     required: ["fullname", "phone", "address", "age", "email", "password"],
     additionalProperties: false
@@ -64,6 +66,8 @@ const editSchema = {
         email: {type: "string", minLength: 4, maxLength: 30},
         password: {type: "string", minLength: 4, maxLength: 50},
         role: {type: "string", minLength: 2, maxLength: 10},
+        balance: {type: "integer"},
+        spent: {type: "integer"}
     },
     additionalProperties: false
 }

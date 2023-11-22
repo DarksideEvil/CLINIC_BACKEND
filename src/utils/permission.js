@@ -13,12 +13,12 @@ const adminCheck = (req, res, next) => {
     }
 }
 
-const bossCheck = (req, res, next) => {
+const bossAdminCheck = (req, res, next) => {
     try {
         const headers = req.headers['authorization'];
         if (headers) {
             const decoded = jwtDecoder(headers);
-            if (decoded.role === 'boss') next();
+            if (decoded.role === 'boss' || decoded.role === 'admin') next();
             else res.status(405).send({message: 'Prohibited ⛔'});
         } else return res.status(403).send({message: 'Token not found !'});
     } catch (err) {
@@ -26,4 +26,4 @@ const bossCheck = (req, res, next) => {
     }
 }
 
-module.exports = { adminCheck, bossCheck };
+module.exports = { adminCheck, bossAdminCheck };

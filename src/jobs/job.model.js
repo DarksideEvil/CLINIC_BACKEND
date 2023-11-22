@@ -22,6 +22,18 @@ const jobSchema = new mongoose.Schema({
         default: null,
         unique: true
     },
+    workDay: {
+        type: [ String ],
+        default: []
+    },
+    role: {
+        type: String,
+        default: 'job'
+    },
+    income: {
+        type: Number,
+        default: 0
+    },
     price: {type: Number, required: true}
 }, {timestamps: true, versionKey: false});
 
