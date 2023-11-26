@@ -23,6 +23,7 @@ const addOwner = async (req, res) => {
             }
             const token = await sign(payload, process.env.JWT_SECRET_KEY,
                 {expiresIn: process.env.TOKEN_EXPIRESIN});
+                
             if (token) { return res.status(201).json({token: token}); }
         }
     } catch (err) {
@@ -34,6 +35,7 @@ const addOwner = async (req, res) => {
 const getOwners = async (req, res) => {
     try {
         const owners = await ownerModel.find({}).select('-password');
+
         return res.status(200).json(owners);
     } catch (err) {
         logError(err);

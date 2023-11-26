@@ -19,7 +19,7 @@ const {adminCheck} = require('.././utils/permission');
 
 router.route('/').get(getJobs);
 
-router.route('/').post(validating, addJob);
+router.route('/').post(adminCheck, validating, addJob);
 
 router.route('/:id').get(paramsValidate, getJob);
 

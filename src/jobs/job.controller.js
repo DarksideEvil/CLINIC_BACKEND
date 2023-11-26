@@ -30,9 +30,7 @@ const getJob = async (req, res) => {
     try {
         const job = await jobModel.findById(req.params.id)
         .populate('doctor', '-_id fullname');
-        if (!job) {
-            return res.status(400).send({message: 'That job not exists !'});
-        }
+        
         return res.status(200).json(job);
     } catch (err) {
         return res.status(500).send({message: err?.message});

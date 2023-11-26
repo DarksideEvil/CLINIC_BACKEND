@@ -60,12 +60,12 @@ const editSchema = {
     type: "object",
     properties: {
         fullname: {type: "string", minLength: 2, maxLength: 35},
-        phone: {type: "integer", minimum: 9, maximum: 12},
+        phone: {type: "integer", minimum: 9},
         address: {type: "string", minLength: 3, maxLength: 150},
         age: {type: "integer"},
-        email: {type: "string", minLength: 4, maxLength: 30},
-        password: {type: "string", minLength: 4, maxLength: 50},
-        role: {type: "string", minLength: 2, maxLength: 10},
+        email: {type: "string", minLength: 4},
+        password: {type: "string", minLength: 4},
+        role: {type: "string", minLength: 2},
         balance: {type: "integer"},
         spent: {type: "integer"}
     },

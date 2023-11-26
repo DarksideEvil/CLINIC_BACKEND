@@ -12,15 +12,15 @@ const auth = async (res, user, body, expiresin) => {
             const validPswd = await argon2.verify(validUser.password, body.password);
             if (!validPswd) return res.status(400).send({message: 'email/password incorrect !'});
             const payload = {
-                _id: validUser._id,
-                fullname: validUser.fullname,
-                email: validUser.email,
-                address: validUser.address,
-                phone: validUser.phone,
-                age: validUser.age,
-                spent: validUser.spent,
-                role: validUser.role,
-                balance: validUser.balance
+                _id: validUser?._id,
+                fullname: validUser?.fullname,
+                email: validUser?.email,
+                address: validUser?.address,
+                phone: validUser?.phone,
+                age: validUser?.age,
+                spent: validUser?.spent,
+                role: validUser?.role,
+                balance: validUser?.balance
             }
             const token = await sign(payload, process.env.JWT_SECRET_KEY,
                 {expiresIn: expiresin});

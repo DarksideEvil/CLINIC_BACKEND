@@ -1,6 +1,12 @@
 const mongoose = require('mongoose');
+const { logError } = require('../../settings/logs/log');
 
 module.exports = async () => {
-    const connected = await mongoose.connect(process.env.MONGO_CONNECT)
-        connected ? console.log('MongoDB\'s online...') : console.log('MongoDB\'s offline !');
+    try {
+        await mongoose.connect(process.env.MONGO_CONNECT);
+        console.log('MongoDB\'s online...');
+    } catch (err) {
+        logError(err);
+        console.log(err);
+    }
 }

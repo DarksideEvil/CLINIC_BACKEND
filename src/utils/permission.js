@@ -9,7 +9,7 @@ const adminCheck = (req, res, next) => {
             else res.status(405).send({message: 'Prohibited ⛔'});
         } else return res.status(403).send({message: 'Token not found !'});
     } catch (err) {
-        return res.send(err);
+        return res.send({message: err?.message});
     }
 }
 
@@ -22,7 +22,7 @@ const bossAdminCheck = (req, res, next) => {
             else res.status(405).send({message: 'Prohibited ⛔'});
         } else return res.status(403).send({message: 'Token not found !'});
     } catch (err) {
-        return res.send(err);
+        return res.send({message: err?.message});
     }
 }
 

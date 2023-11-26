@@ -41,7 +41,6 @@ const getDoctors = async (req, res) => {
 
         return res.status(200).json(allDoctors);
     } catch (err) {
-        console.log(err);
         return res.status(500).send({message: err?.message});
     }
 }
@@ -73,7 +72,6 @@ const deleteDoctor = async (req, res) => {
 
         return res.status(200).json(deletedDoctor);
     } catch (err) {
-        console.log(err);
         return res.status(500).send({message: err?.message});
     }
 }

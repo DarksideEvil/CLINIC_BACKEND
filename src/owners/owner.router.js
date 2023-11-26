@@ -15,7 +15,11 @@ const {
     validatingg
 } = require('./owner.validation');
 
+const authVerify = require('../utils/verify');
+
 router.route('/').post(validating, addOwner);
+
+router.use(authVerify);
 
 router.route('/').get(getOwners);
 
