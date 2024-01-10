@@ -4,8 +4,7 @@
   "description": "medical clinic's backend",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "webpack",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,8 +23,7 @@
   "homepage": "https://github.com/DarksideEvil/CLINIC_BACKEND#readme",
   "devDependencies": {
     "dotenv": "^16.3.1",
-    "nodemon": "^3.0.1",
-    "webpack-cli": "^5.1.4"
+    "nodemon": "^3.0.1"
   },
   "dependencies": {
     "ajv": "^8.12.0",

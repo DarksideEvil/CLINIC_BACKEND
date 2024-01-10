@@ -1,8 +1,8 @@
+const config = require('dotenv').config();
 const express = require('express');
 const app = express();
 const DB = require('./settings/mongo/db');
 const PORT = process.env.PORT || 5000;
-const config = require('dotenv').config();
 const cors = require('cors');
 const {logError} = require('./settings/logs/log');
 const allRouter = require('./router');
