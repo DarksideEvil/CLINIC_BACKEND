@@ -17,7 +17,7 @@ DB();
 app.use(express.json());
 // enables Cross-Origin Resource Sharing (CORS)
 app.use(cors({
-    origin: 'https://65a1564a2296ab055c0c8c3c--clinic0.netlify.app',
+    origin: 'https://privateclinic.onrender.com',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }));
 // this function is performed on the 1st of every month
