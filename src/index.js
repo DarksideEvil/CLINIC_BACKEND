@@ -27,7 +27,7 @@ cron.schedule('* * 1 * *', () => {
     onceEveryMonth();
 }, {name: 'inserted monthly income !'});
 // path to all routes
-app.use(`${CLINIC_URL}`, allRouter);
+app.use(`/`, allRouter);
 // handles errors..
 app.use((err, req, res, next) => {
     if (err) {
