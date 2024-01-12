@@ -16,7 +16,10 @@ DB();
 // parses incoming JSON requests and puts the parsed data in req.body..
 app.use(express.json());
 // enables Cross-Origin Resource Sharing (CORS)
-app.use(cors());
+app.use(cors({
+    origin: 'https://clinic0.netlify.app',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}));
 // this function is performed on the 1st of every month
 cron.schedule('* * 1 * *', () => {
     // saving monthly income
