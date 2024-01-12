@@ -2,7 +2,6 @@ const config = require('dotenv').config();
 const express = require('express');
 const app = express();
 const DB = require('./settings/mongo/db');
-const CLINIC_URL = process.env.CLINIC_URL
 const PORT = process.env.PORT || 5000;
 const cors = require('cors');
 const {logError} = require('./settings/logs/log');
@@ -27,7 +26,7 @@ cron.schedule('* * 1 * *', () => {
     onceEveryMonth();
 }, {name: 'inserted monthly income !'});
 // path to all routes
-app.use(`${CLINIC_URL}`, allRouter);
+app.use('/api', allRouter);
 // handles errors..
 app.use((err, req, res, next) => {
     if (err) {
