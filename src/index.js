@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const DB = require('./settings/mongo/db');
 const PORT = process.env.PORT || 5000;
-const cors = require('cors');
+// const cors = require('cors');
 const {logError} = require('./settings/logs/log');
 const allRouter = require('./router');
 const onceEveryMonth = require('./reports/everyMonth');
@@ -16,10 +16,10 @@ DB();
 // parses incoming JSON requests and puts the parsed data in req.body..
 app.use(express.json());
 // enables Cross-Origin Resource Sharing (CORS)
-app.use(cors({
-    origin: 'https://clinic0.netlify.app',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}));
+// app.use(cors({
+//     origin: 'https://clinic0.netlify.app',
+//     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+// }));
 // this function is performed on the 1st of every month
 cron.schedule('* * 1 * *', () => {
     // saving monthly income
