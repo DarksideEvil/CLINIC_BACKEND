@@ -17,7 +17,7 @@ DB();
 app.use(express.json());
 // enables Cross-Origin Resource Sharing (CORS)
 app.use(cors({
-    origin: 'http://localhost:1000/api',
+    origin: 'https://clinic0.netlify.app',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }));
 // this function is performed on the 1st of every month
