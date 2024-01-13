@@ -13,7 +13,7 @@ DB();
 // parses incoming JSON requests and puts the parsed data in req.body..
 app.use(express.json());
 // enables Cross-Origin Resource Sharing (CORS)
-secured();
+secured(app);
 // this function is performed on the 1st of every month
 cron.schedule('* * 1 * *', () => {
     // saving monthly income
