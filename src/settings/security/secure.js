@@ -1,6 +1,7 @@
 const cors = require('cors');
 const allowedOrigins = [
-    'https://clinic0.netlify.app'
+    'https://clinic0.netlify.app',
+    'https://clinicdashboard.netlify.app'
 ];
 
 module.exports = (app) => {
